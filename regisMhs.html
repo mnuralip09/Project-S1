@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        .container img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 80px;
+            height: 80px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+            color: #007bff;
+        }
+
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="landingpage.html"><img src="C:\Telkom-S1\Semester 4\Berkas Sidang TA-PA\Berkas Mentahan\Prototype\KelasUnggulan\assets\img\image_3.png" alt="Avatar"></a>
+        <h2>Register with your email</h2>
+        <form action="">
+            <input type="text" placeholder="Enter name" required>
+            <input type="text" placeholder="Enter NIM" required>
+            <input type="text" placeholder="Enter Kelas" required>
+            <input type="text" placeholder="Enter No Handphone" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit" class="btn"><a href="dashboard_mhs.html">Create Account</a></button>
+        </form>
+        <p class="login-link">Already have an Account? <a href="dashboard_mhs.html">Log in</a></p>
+    </div>
+
+</body>
+</html>

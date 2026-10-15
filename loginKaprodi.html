@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Kelas Unggulan Telkom University</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 1000px;
+        }
+
+        .logo {
+            flex: 1;
+            text-align: center;
+            padding-right: 50px;
+        }
+
+        .logo img {
+            width: 400px;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            flex: 1;
+            background-color: #f4f7fa;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-container h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .form-container p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container form button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-container .role-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .form-container .role-buttons button {
+            background-color: #e0e0ff;
+            flex: 1;
+            margin-right: 5px;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 14px;
+            color: #333;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-container .role-buttons button:hover {
+            background-color: #d0d0ff;
+        }
+
+        .form-container .role-buttons button.active {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .form-container .role-buttons button:last-child {
+            margin-right: 0;
+        }
+
+        .form-container a {
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .form-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <a href="landingpage.html"><img src="C:\Telkom-S1\Semester 4\Berkas Sidang TA-PA\Berkas Mentahan\Prototype\KelasUnggulan\assets\img\v503_4724.png" alt="Logo FRI Telkom University"></a>
+            
+        </div>
+        <div class="form-container">
+            <h2>Selamat Datang di Kelas Unggulan Telkom University</h2>
+            <p>Login Sebagai</p>
+            <div class="role-buttons">
+                <button><a href="loginMhs.html">Mahasiswa</a></button>
+                <button class="active">Kaprodi</button>
+                <button><a href="loginDosen.html">Dosen</a></button>
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Username/Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit"><a href="index.html">Login</a></button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
